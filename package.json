@@ -7,9 +7,24 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.7.9",
+    "bcryptjs": "^3.0.2",
+    "chai": "^5.2.0",
+    "chromedriver": "^134.0.3",
+    "cors": "^2.8.5",
+    "cucumber": "^6.0.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0",
     "react-scripts": "5.0.1",
+    "selenium-webdriver": "^4.29.0",
+    "sqlite3": "^5.1.7",
+    "supertest": "^7.0.0",
+    "tailwindcss": "^4.0.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -35,5 +50,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "cucumber-pretty": "^6.0.1"
   }
 }

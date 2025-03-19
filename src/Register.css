@@ -1,0 +1,61 @@
+/* Register.css */
+body {
+    background-color: #f7fafc; /* Light gray background */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .register-form {
+    background-color: white;
+    padding: 2rem; /* Padding around the form */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 24rem; /* Fixed width */
+  }
+  
+  h2 {
+    font-size: 1.5rem; /* Title size */
+    font-weight: 600; /* Bold title */
+    text-align: center; /* Center the title */
+    margin-bottom: 1rem; /* Space below title */
+  }
+  
+  .message {
+    color: #38a169; /* Green color for success message */
+    text-align: center; /* Center message */
+    margin-bottom: 1rem; /* Space below message */
+  }
+  
+  .input {
+    border: 1px solid #cbd5e0; /* Light gray border */
+    padding: 0.5rem; /* Padding inside inputs */
+    border-radius: 0.25rem; /* Rounded corners */
+    width: 100%; /* Full width */
+    margin-bottom: 1rem; /* Space between inputs */
+    transition: border 0.2s; /* Smooth transition for border */
+  }
+  
+  .input:focus {
+    outline: none; /* Remove default outline */
+    border: 2px solid #38a169; /* Green border on focus */
+  }
+  
+  .button {
+    background-color: #38a169; /* Green background */
+    color: white; /* White text */
+    padding: 0.5rem; /* Padding inside button */
+    border-radius: 0.25rem; /* Rounded corners */
+    width: 100%; /* Full width */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.2s; /* Smooth transition for background */
+  }
+  
+  .button:hover {
+    background-color: #2f855a; /* Darker green on hover */
+  }
+  

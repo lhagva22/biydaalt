@@ -1,0 +1,13 @@
+backend ээ ажиллуулахын тулд 
+cd backend 
+node server 
+frontend 
+
+cd src 
+npm start
+
+test selenium 
+node ./selenium/phone-number-selenium.test.js     
+
+test  (Gherkin) and (Cucumber)
+npx cucumber-js
